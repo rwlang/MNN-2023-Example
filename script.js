@@ -103,7 +103,7 @@ this.end()
           "items": [
             {
               "type": "text",
-              "title": "Experiment 1: Visible Targets",
+              "title": "Experiment 1: ",
               "content": "A grey 'start' button will appear in the center of the screen. Press this button to begin each trial."
             },
             {
@@ -256,6 +256,18 @@ this.options.viewportScale = 1
                     "stroke": "#aaaaaa",
                     "strokeWidth": 1,
                     "fill": "#dddddd"
+                  },
+                  {
+                    "type": "aoi",
+                    "left": 0,
+                    "top": 0,
+                    "angle": 0,
+                    "width": "25",
+                    "height": "25",
+                    "stroke": null,
+                    "strokeWidth": 1,
+                    "fill": "rgba(0, 0, 0, 0.2)",
+                    "label": "@Start_Button"
                   }
                 ],
                 "viewport": [
@@ -394,7 +406,7 @@ this.options.viewportScale = 1
           "items": [
             {
               "type": "text",
-              "title": "Experiment 2: Disappeared Targets",
+              "title": "Experiment 2: ",
               "content": "A grey 'start' button will appear in the center of the screen, along with a target circle. Press this button to begin each trial."
             },
             {
@@ -552,8 +564,8 @@ this.options.viewportScale = 1
                     "left": 0,
                     "top": 0,
                     "angle": 0,
-                    "width": "20",
-                    "height": "20",
+                    "width": "25",
+                    "height": "25",
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
