@@ -1127,18 +1127,8 @@ this.options.viewportScale = 1
             {
               "required": true,
               "type": "text",
-              "content": "Ryan Langridge (PhD Candidate, Psychology, University of Manitoba, langrirw@myumanitoba.ca),",
-              "title": "Principal Investigators:"
-            },
-            {
-              "required": true,
-              "type": "text",
-              "content": "Gabrielle David (Undergraduate student, Department of Biological Sciences, University of Manitoba),"
-            },
-            {
-              "required": true,
-              "type": "text",
-              "content": "Jasmine Pomrenke, Undergraduate student, Department of Psychology, University of Manitoba)"
+              "content": "Dr. Ryan Langridge (Postdoctoral Researcher, Psychology, University of Manitoba, langrirw@myumanitoba.ca),",
+              "title": "Principal Investigator:"
             },
             {
               "required": true,
@@ -1155,14 +1145,8 @@ this.options.viewportScale = 1
             {
               "required": true,
               "type": "text",
-              "content": "If you have any questions about this study, please feel free to contact us. Or, you can contact the Human Ethics Coordinator at humanethics@umanitoba.ca.",
+              "content": "If you have any questions about this study, please feel free to contact us. ",
               "title": ""
-            },
-            {
-              "required": true,
-              "type": "text",
-              "title": "You may now alert the experimenter that you have finished.  Thank you!",
-              "content": ""
             }
           ],
           "scrollTop": true,
