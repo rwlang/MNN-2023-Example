@@ -44,7 +44,7 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cbutton id=\"Start\"\u003EContinue to Sample experiment\u003C\u002Fbutton\u003E\r\n\r\n\u003Cinput type=\"button\" onclick=\"window.location.href='https:\u002F\u002Fwww.google.com';\" value=\"Poster PDF\" \u002F\u003E",
+              "content": "\u003Cbutton id=\"Start\"\u003EContinue to Sample Experiment\u003C\u002Fbutton\u003E\r\n\r\n\u003Cinput type=\"button\" onclick=\"window.location.href='https:\u002F\u002Fwww.google.com';\" value=\"Langridge & Marotta 2023 MNN Poster PDF\" \u002F\u003E",
               "name": ""
             }
           ],
