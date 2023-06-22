@@ -44,7 +44,7 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cbutton id=\"Start\"\u003EContinue to Sample Experiment\u003C\u002Fbutton\u003E\r\n\r\n\u003Cinput type=\"button\" onclick=\"window.location.href='https:\u002F\u002Fdrive.google.com\u002Ffile\u002Fd\u002F1wCwA_Gmmj8_Cnv3egCBmlqaD9XOVA1UJ\u002Fview?usp=sharing';\" value=\"Langridge & Marotta 2023 MNN Poster PDF\" \u002F\u003E",
+              "content": "\u003Cbutton id=\"Start\"\u003EContinue to Sample Experiment\u003C\u002Fbutton\u003E\r\n\r\n\u003Cinput type=\"button\" onclick=\"window.location.href='https:\u002F\u002Fdrive.google.com\u002Ffile\u002Fd\u002F1NPUJWEtLvwkNVa091hsDu3TSFmu75_z5\u002Fview?usp=sharing';\" value=\"Langridge & Marotta 2023 MNN Poster PDF\" \u002F\u003E",
               "name": ""
             },
             {
@@ -922,6 +922,17 @@ this.options.viewportScale = 1
                 "type": "lab.canvas.Screen",
                 "content": [
                   {
+                    "type": "rect",
+                    "left": "0",
+                    "top": "0",
+                    "angle": 0,
+                    "width": "600",
+                    "height": "600",
+                    "stroke": null,
+                    "strokeWidth": 1,
+                    "fill": "black"
+                  },
+                  {
                     "type": "aoi",
                     "left": 0,
                     "top": "0",
@@ -934,22 +945,11 @@ this.options.viewportScale = 1
                     "label": "Start_Button"
                   },
                   {
-                    "type": "rect",
-                    "left": "0",
-                    "top": "0",
-                    "angle": 0,
-                    "width": "600",
-                    "height": "600",
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "black"
-                  },
-                  {
                     "type": "circle",
                     "left": 0,
                     "top": "0",
                     "angle": 0,
-                    "width": 15,
+                    "width": "15",
                     "height": 15,
                     "stroke": "#aaaaaa",
                     "strokeWidth": 1,
