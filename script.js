@@ -44,14 +44,29 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cbutton id=\"Start\"\u003EContinue to Sample Experiment\u003C\u002Fbutton\u003E\r\n\r\n\u003Cinput type=\"button\" onclick=\"window.location.href='https:\u002F\u002Fwww.google.com';\" value=\"Langridge & Marotta 2023 MNN Poster PDF\" \u002F\u003E",
+              "content": "\u003Cbutton id=\"Start\"\u003EContinue to Sample Experiment\u003C\u002Fbutton\u003E\r\n\r\n\u003Cinput type=\"button\" onclick=\"window.location.href='https:\u002F\u002Frwlang.github.io\u002FMNN-Poster\u002F';\" value=\"Langridge & Marotta 2023 MNN Poster PDF\" \u002F\u003E",
+              "name": ""
+            },
+            {
+              "required": true,
+              "type": "image",
+              "src": "${ this.files[\"Perception Action Lab Pic.jpg\"] }",
+              "name": ""
+            },
+            {
+              "required": true,
+              "type": "image",
+              "src": "${ this.files[\"UM Logo.png\"] }",
               "name": ""
             }
           ],
           "scrollTop": true,
           "submitButtonText": "Continue →",
           "submitButtonPosition": "hidden",
-          "files": {},
+          "files": {
+            "UM Logo.png": "embedded\u002F61eda5344cb67a29def8cac8fe365fbcea61890855a33c925cc5902b88c1d577.png",
+            "Perception Action Lab Pic.jpg": "embedded\u002F5c86402aa0757c813a7e72c212faaac6a28861ade165d158462e0d50cf12176e.jpg"
+          },
           "responses": {
             "": ""
           },
@@ -262,8 +277,8 @@ this.options.viewportScale = 1
                     "left": 0,
                     "top": 0,
                     "angle": 0,
-                    "width": "25",
-                    "height": "25",
+                    "width": "50",
+                    "height": "50",
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
@@ -316,17 +331,6 @@ this.options.viewportScale = 1
                     "src": "${this.files[this.parameters.Context_Size]}"
                   },
                   {
-                    "type": "circle",
-                    "left": "${parameters.Position_H}",
-                    "top": "${parameters.Position_V}",
-                    "angle": 0,
-                    "width": "${parameters.Target_Size}",
-                    "height": 70,
-                    "stroke": "#ffffff",
-                    "strokeWidth": 1,
-                    "fill": "#ffffff"
-                  },
-                  {
                     "type": "aoi",
                     "left": "${parameters.Position_H}",
                     "top": "${parameters.Position_V}",
@@ -337,6 +341,17 @@ this.options.viewportScale = 1
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Response"
+                  },
+                  {
+                    "type": "circle",
+                    "left": "${parameters.Position_H}",
+                    "top": "${parameters.Position_V}",
+                    "angle": 0,
+                    "width": "${parameters.Target_Size}",
+                    "height": 70,
+                    "stroke": "#ffffff",
+                    "strokeWidth": 1,
+                    "fill": "#ffffff"
                   }
                 ],
                 "viewport": [
@@ -564,8 +579,8 @@ this.options.viewportScale = 1
                     "left": 0,
                     "top": 0,
                     "angle": 0,
-                    "width": "25",
-                    "height": "25",
+                    "width": "50",
+                    "height": "50",
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
